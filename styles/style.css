@@ -175,7 +175,7 @@ main{
     font-weight: 700;
     color: rgba(13, 19, 33, 0.7);
     margin-bottom: 30px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left: 100px;
 }
 .layer2-discription{
@@ -225,7 +225,7 @@ main{
     font-size: 24px;
     font-weight: 700;
     color: rgba(13, 19, 33, 0.7);
-    margin-top: 10px;
+    margin-top: 50px;
     width: 600px;
     margin-left: 30px;
 }
@@ -281,4 +281,40 @@ main{
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 100px;
+}
+
+/* section-style-3 start here */
+
+.section-style-3{
+    text-align: center;
+    margin-top: 140px;
+}
+.section3-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.section3-discription{
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin-left: 295px;
+    margin-right: 295px;
+    opacity: 0.7;
+}
+.ytb{
+    text-align: center;
+    margin: 32px 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    border-radius: 32px;
+}
+.ytb-border{
+    border: 1px solid grey;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 16px;
 }
