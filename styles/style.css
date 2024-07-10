@@ -37,7 +37,7 @@ nav{
 
 /* Banner Style Start Here */
 .bg-img{
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -534,7 +534,7 @@ nav{
 .footer-bg{
     background-color: rgba(0, 0, 0, 0.5);
     
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('../assets/handshake.jpg');
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 110px;
