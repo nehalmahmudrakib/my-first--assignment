@@ -198,7 +198,7 @@ nav{
     margin-left: 100px;
 }
 .layer2-img{
-    height: 279px;
+    height: 409px;
     margin-top: 20px;
     margin-left: 10px;
     
@@ -325,13 +325,14 @@ nav{
 .ytb{
     text-align: center;
     margin: 32px 32px;
-    margin-left: 32px;
-    margin-right: 32px;
 }
 .ytb-border{
     border: 1px solid grey;
     margin-left: 180px;
     margin-right: 180px;
+    border-radius: 16px;
+}
+iframe{
     border-radius: 16px;
 }
 
