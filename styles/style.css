@@ -4,14 +4,15 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 
+
 /* Nav-Bar styles here */
 
 nav{
-    margin-top: 50px;
-    margin-left: 150px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 1200px;
+    justify-content: space-around;
+    gap: 500px;
 }
 .btn{
     padding: 20px 28px 20px 28px;
@@ -20,6 +21,7 @@ nav{
     font-size: 20px;
     font-weight: 600;
     color: rgb(13, 19, 33);
+    border-radius: 8px;
 
 }
 .header1{
@@ -33,14 +35,15 @@ nav{
 
 
 /* banner style here */
-main{
+.bg-img{
     background-image: url('/assets/Hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-    margin-top: 50px;
-    height: 970px;
+    margin-top: 40px;
+    height: 720px;
     width: 1890px;
+    width: 100%;
     
 }
 
@@ -88,7 +91,7 @@ main{
 
 .section2-title{
     text-align: center;
-    margin-top: 450px;
+    margin-top: 150px;
     margin-left: 97px;
     margin-right: 97px;
     font-weight: 800;
@@ -308,7 +311,6 @@ main{
     margin: 32px 32px;
     margin-left: 32px;
     margin-right: 32px;
-    border-radius: 32px;
 }
 .ytb-border{
     border: 1px solid grey;
@@ -492,4 +494,85 @@ main{
     margin-right: 190px;
     padding: 30px;
     border-radius: 16px;
+}
+
+/* footer style start? here */
+
+.footer-bg{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    background-image: url('/assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 110px;
+    height: 400px;
+    width: 450;
+    background-blend-mode: overlay;
+    margin-left: 195px;
+    margin-right: 190px;
+}
+.footer-text{
+    text-align: center;
+    padding-top: 70px;
+}
+.footer-head{
+    width: 1400px;
+    height: 46px;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.footer-title{
+    width: 1500px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+.msg{
+    margin-right: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    opacity: 0.7;
+    background-color: white;
+    margin-left: 170px;
+    margin-left: 05px;
+
+}
+.footer-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.sub-btn{
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+/* footer section 2 style start here */
+
+.footer-sectio2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    padding: 32px 32px;
+    align-items: center;
+    gap: 250px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.footer-head2{
+    margin-right: 290px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+.foter-icon{
+    padding-right: 150px;
 }
