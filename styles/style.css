@@ -5,7 +5,7 @@ body{
 }
 
 
-/* Nav-Bar styles here */
+/* Nav-Bar Styles Start Here */
 
 nav{
     display: flex;
@@ -15,14 +15,13 @@ nav{
     gap: 500px;
 }
 .btn{
-    padding: 20px 28px 20px 28px;
     width: 260px;
     height: 64px;
     font-size: 20px;
     font-weight: 600;
+    padding: 20px 28px 20px 28px;
     color: rgb(13, 19, 33);
     border-radius: 8px;
-
 }
 .header1{
     width: 160px;
@@ -32,9 +31,11 @@ nav{
     color: rgb(13, 19, 33);
 }
 
+/* Nav-Bar Styles End Here */
 
 
-/* banner style here */
+
+/* Banner Style Start Here */
 .bg-img{
     background-image: url('/assets/Hero-bg.png');
     background-position: center;
@@ -43,8 +44,7 @@ nav{
     margin-top: 40px;
     height: 720px;
     width: 1890px;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 .banner{
@@ -77,7 +77,10 @@ nav{
     border-radius: 8px;
 }
 
-/* section2 style here */
+/* Banner Style Ends Here */
+
+
+/* Section2 Style Start Here */
 
 .section-banner2{
     height: 1750px;
@@ -111,7 +114,10 @@ nav{
     margin-left: 80px;
     margin-right: 80px;
 }
-/* layer1 style here */
+
+/* Section2 Style Ends Here */
+
+/* Layer1 Style Start Here */
 
 .layer-1{
     display: flex;
@@ -161,7 +167,11 @@ nav{
     padding-right: 50px;
 }
 
-/* layer2 style here */
+/* Layer1 Style Ends Here */
+
+
+
+/* Layer2 Style Start Here */
 
 .layer2{
     margin-top: 48px;
@@ -211,8 +221,11 @@ nav{
     margin-bottom: 30px;
 }
 
+/* Layer2 Style Ends Here */
 
-/* layer3 style start here */
+
+
+/* Layer3 Style Start Here */
 
 .layer3{
     margin-top: 48px;
@@ -262,6 +275,9 @@ nav{
     color: rgba(13, 19, 33, 0.02);
 }
 
+/* Layer3 Style Ends Here */
+
+
 
 /* layer color style here */
 
@@ -284,7 +300,7 @@ nav{
     margin-top: 100px;
 }
 
-/* section-style-3 start here */
+/* Section-Style-3 Start Here */
 
 .section-style-3{
     text-align: center;
@@ -319,7 +335,11 @@ nav{
     border-radius: 16px;
 }
 
-/* section-4 style start here */
+
+/* Section-Style-3 Ends Here */
+
+
+/* Section-4 Style Start Here */
 
 .section4-header{
     margin-top: 156px;
@@ -347,6 +367,9 @@ nav{
     margin-left: 190px;
     margin-top: 25px;
 }
+
+/* Section-4 Style Start Here */
+
 
 /* Icon style Start Here */
 
@@ -410,7 +433,10 @@ nav{
     margin-left: 30px;
 }
 
-/* section 5 style start here */
+/* Icon style Ends Here */
+
+
+/* Section 5 Style Start Here */
 
 .section-5{
     text-align: center;
@@ -433,7 +459,10 @@ nav{
     opacity: 0.7;
 }
 
-/* section 6 style start here */
+/* Section 5 Style Ends Here */
+
+
+/* Section 6 Style Start Here */
 
 
 .section-react{
@@ -496,7 +525,11 @@ nav{
     border-radius: 16px;
 }
 
-/* footer style start? here */
+/* Section 6 Style Ends Here */
+
+
+
+/* Footer Style Start Here */
 
 .footer-bg{
     background-color: rgba(0, 0, 0, 0.5);
@@ -556,7 +589,11 @@ nav{
 
 }
 
-/* footer section 2 style start here */
+/* Footer Style Ends Here */
+
+
+
+/* Footer Section 2 Style Start Here */
 
 .footer-sectio2{
     display: flex;
@@ -576,3 +613,6 @@ nav{
 .foter-icon{
     padding-right: 150px;
 }
+
+
+/* Footer Section 2 Style Start Here */
