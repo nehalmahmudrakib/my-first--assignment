@@ -398,6 +398,7 @@ main{
     color: rgb(13, 19, 33);
     margin-top: 30px;
     margin-left: 30px;
+    opacity: 0.7;
 }
 .icon-link{
     width: 284px;
@@ -407,4 +408,89 @@ main{
     color: rgb(13, 19, 33);
     margin-top: 70px;
     margin-left: 30px;
+}
+
+/* section 5 style start here */
+
+.section-5{
+    text-align: center;
+}
+.section-5-title{
+    width: 1800px;
+    height: 37px;
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.section-5-discription{
+    width: 1500px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+/* section 6 style start here */
+
+.section-react{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+.section-node{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+.section-mongodb{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+
+.section-6 h1{
+    width: 160px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin-left: 50px;
+}
+.section-6 p{
+    width: 1300px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-left: 50px;
+}
+.section-6 a{
+    width: 940px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    margin-left: 50px;
+}
+.section-react{
+    border: 2px solid rgba(13, 19, 33, 0.15);;
+    margin-right: 190px;
+    padding: 30px;
+    border-radius: 16px;
+}
+.section-node{
+    border: 2px solid rgba(13, 19, 33, 0.15);;
+    margin-right: 190px;
+    padding: 30px;
+    border-radius: 16px;
+}
+.section-mongodb{
+    border: 2px solid rgba(13, 19, 33, 0.15);;
+    margin-right: 190px;
+    padding: 30px;
+    border-radius: 16px;
 }
