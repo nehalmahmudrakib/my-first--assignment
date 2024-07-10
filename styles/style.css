@@ -318,3 +318,93 @@ main{
     margin-right: 180px;
     border-radius: 16px;
 }
+
+/* section-4 style start here */
+
+.section4-header{
+    margin-top: 156px;
+    height: 700px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.section-4{
+    text-align: center;
+}
+.section4-title{
+    width: 900px;
+    height: 37px;
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.section4-discription{
+    width: 1200px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-left: 190px;
+    margin-top: 25px;
+}
+
+/* Icon style Start Here */
+
+.html-icon{
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+    width: 410px;
+    height: 380px;
+    margin-top: 120px;
+    margin-left: 15px;
+}
+.css-icon{
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+    width: 410px;
+    height: 380px;
+    margin-top: 120px;
+}
+.js-icon{
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
+    width: 410px;
+    height: 380px;
+    margin-top: 120px;
+}
+
+.section-5-icon{
+    display: flex;
+    justify-content: space-around;
+}
+.icon-all{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.icon-title{
+    width: 310px;
+    height: 45px;
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: rgb(13, 19, 33);
+}
+.icon-para{
+    width: 320px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.icon-link{
+    width: 284px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    margin-top: 70px;
+    margin-left: 30px;
+}
